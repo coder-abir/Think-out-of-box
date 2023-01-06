@@ -1,0 +1,291 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap");
+
+/* Universal Styles : Start */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+  background-color: #fff;
+  color: #444343;
+  line-height: 1.6;
+  font-weight: 400;
+}
+
+ul {
+  list-style: none;
+}
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+
+h1,
+h2 {
+  line-height: 1.2;
+}
+
+p {
+  margin: 10px 0;
+}
+
+img {
+  /* width: 100%; */
+}
+
+.section-padding {
+  padding: 100px 230px;
+}
+
+.btn {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  background-color: #fff;
+  color: #005fac;
+  padding: 15px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Universal Styles : End */
+
+/* Header/hero section : start */
+.hero {
+  height: 100vh;
+  background: url("../images/banner/banner3.png") no-repeat center center/cover;
+  padding: 50px 230px;
+  display: flex;
+}
+
+.hero .content {
+  height: 100%;
+  text-align: right;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.hero .content h1 {
+  font-size: 65px;
+  font-weight: 700;
+  line-height: 76px;
+  color: #151414;
+  margin-bottom: 24px;
+}
+
+.hero .content p {
+  color: #fff;
+  line-height: 26px;
+  margin-bottom: 30px;
+}
+
+.hero .content .btn {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  background-color: #fff;
+  color: #005fac;
+  padding: 15px 20px;
+  border-radius: 5px;
+}
+
+/* Header/hero section : end*/
+
+/* Section : Failures */
+
+.failures {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.failures_img {
+  height: 100%;
+  align-self: center;
+}
+
+.failures_content h2 {
+  font-size: 40px;
+  line-height: 47px;
+  font-weight: 700;
+  color: #151414;
+  margin-bottom: 24px;
+}
+.failures_content {
+  height: 100%;
+  width: 50%;
+}
+.failures_content p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #444343;
+  margin-bottom: 16px;
+}
+
+.failures_content .listFailures .item {
+  margin-bottom: 8px;
+  line-height: 26px;
+}
+.failures_content .listFailures .item i {
+  margin-right: 10px;
+  color: #16d887;
+}
+
+/* Section : Failures End */
+
+/* section : Plans */
+
+.myPlans {
+  margin: auto;
+}
+.myPlans h2 {
+  font-size: 40px;
+  line-height: 47px;
+  font-weight: 700;
+  color: #151414;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.myPlans .plans {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.myPlans .plans img {
+  margin-bottom: 24px;
+  width: 100px;
+}
+
+.myPlans .plans h4 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #151414;
+  line-height: 35px;
+  margin-bottom: 16px;
+}
+.myPlans .plans p {
+  color: #737272;
+  font-weight: 500;
+  line-height: 29px;
+  font-size: 25px;
+}
+
+/* section : Plans end */
+
+/* section : CallNow */
+.callNow {
+  width: 100%;
+}
+.callNow .callNow_box {
+  background-repeat: no-repeat;
+  background: url("../images/watch.png") no-repeat center center/cover;
+  position: relative;
+  border-radius: 8px;
+  padding: 60px;
+  z-index: 10;
+}
+
+.callNow .callNow_box::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(90deg, #005fac 0%, rgba(0, 95, 172, 0) 100%);
+  z-index: -1;
+  border-radius: 8px;
+}
+.callNow .callNow_box_content h2 {
+  font-size: 40px;
+  line-height: 47px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 44px;
+}
+
+.callNow .callNow_box_content i {
+  margin-right: 10px;
+  color: #005fac;
+}
+
+/* section : CallNow end */
+
+/* Footer */
+
+.footer {
+  background-color: #151414;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.footer .footer_right h2 {
+  font-size: 45px;
+  line-height: 53px;
+  font-weight: 700;
+  color: #f8f8f8;
+  margin-bottom: 16px;
+}
+.footer .footer_right p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.footer .footer_right .socials {
+  margin-top: 32px;
+  display: flex;
+}
+.footer .footer_right .socials .social {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.footer .footer_left{
+   width: 25%;
+}
+.footer .footer_left h4 {
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 29px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.footer .footer_left .subscribeForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer .footer_left .subscribeForm input{
+    margin-bottom: 16px;
+    padding: 22px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 18px;
+    width: 100%;
+}
+.footer .footer_left .subscribeForm button{
+    width: 50%;
+    background-color: #005fac;
+    color: #fff;
+    line-height: 24px;
+    font-size: 20px;
+    font-weight: 400;  
+    border:none;
+}
+/* Footer end */
