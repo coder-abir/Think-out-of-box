@@ -226,7 +226,6 @@ img {
   background-color: #151414;
   display: flex;
   justify-content: space-between;
-
 }
 
 .footer .footer_right h2 {
@@ -253,8 +252,8 @@ img {
   cursor: pointer;
 }
 
-.footer .footer_left{
-   width: 25%;
+.footer .footer_left {
+  width: 25%;
 }
 .footer .footer_left h4 {
   font-size: 25px;
@@ -269,23 +268,23 @@ img {
   flex-direction: column;
 }
 
-.footer .footer_left .subscribeForm input{
-    margin-bottom: 16px;
-    padding: 22px;
-    background-color: transparent;
-    border: 1px solid #fff;
-    color: #fff;
-    border-radius: 8px;
-    font-size: 18px;
-    width: 100%;
+.footer .footer_left .subscribeForm input {
+  margin-bottom: 16px;
+  padding: 22px;
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  border-radius: 8px;
+  font-size: 18px;
+  width: 100%;
 }
-.footer .footer_left .subscribeForm button{
-    width: 50%;
-    background-color: #005fac;
-    color: #fff;
-    line-height: 24px;
-    font-size: 20px;
-    font-weight: 400;  
-    border:none;
+.footer .footer_left .subscribeForm button {
+  width: 50%;
+  background-color: #005fac;
+  color: #fff;
+  line-height: 24px;
+  font-size: 20px;
+  font-weight: 400;
+  border: none;
 }
 /* Footer end */
