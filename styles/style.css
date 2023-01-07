@@ -223,13 +223,12 @@ p {
   width: 100%;
   display: flex;
   background-color: #005fac;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   flex-direction: row-reverse;
 }
 .contat_us .contact_form {
   width: 40%;
-  display: inline;
 }
 .contat_us .contact_form h3 {
   font-size: 47px;
