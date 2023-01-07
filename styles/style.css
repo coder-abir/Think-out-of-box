@@ -50,7 +50,7 @@ p {
 }
 
 .section-padding {
-  padding: 100px 230px;
+  padding: 100px 120px;
 }
 
 .btn {
@@ -125,11 +125,16 @@ p {
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  height: 100%;
 }
 .failures_img {
   height: 100%;
   align-self: center;
+}
+
+.failures_img img{
+  height: 26rem;
 }
 
 .failures_content h2 {
@@ -140,8 +145,7 @@ p {
   margin-bottom: 24px;
 }
 .failures_content {
-  height: 100%;
-  width: 50%;
+  width: 45%;
   margin-top: 100px;
 }
 .failures_content p {
@@ -251,7 +255,7 @@ p {
   background-color: #005fac;
   justify-content: space-between;
   align-items: center;
-  margin:auto;
+  margin: auto;
   /* flex-direction: row-reverse; */
 }
 .contat_us .contact_form {
@@ -266,34 +270,34 @@ p {
   margin-bottom: 30px;
 }
 
-.contact_info{
+.contact_info {
   display: flex;
   justify-content: space-between;
   margin-bottom: 30px;
   flex-wrap: wrap;
 }
-.contact_info .info{
- display: flex;
+.contact_info .info {
+  display: flex;
 }
-.contact_info .info h4{
+.contact_info .info h4 {
   font-size: 24px;
   color: #fff;
   font-weight: 600;
   line-height: 1;
 }
-.contact_info .info p{
+.contact_info .info p {
   color: #fff;
 }
-.contact_info .info i{
+.contact_info .info i {
   background-color: #f8f8f8;
-  color:#005fac;
+  color: #005fac;
   font-size: 20px;
   padding: 15px;
   border-radius: 50%;
   height: 50px;
   width: 50px;
   text-align: center;
-  transition: all .4s ease;
+  transition: all 0.4s ease;
   margin-right: 20px;
 }
 
