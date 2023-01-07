@@ -26,6 +26,9 @@ body {
   line-height: 1.6;
   font-weight: 400;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 ul {
   list-style: none;
