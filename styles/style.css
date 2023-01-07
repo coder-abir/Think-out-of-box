@@ -55,7 +55,7 @@ p {
 .hero {
   height: 100vh;
   background: url("../images/banner/banner3.png") no-repeat center center/cover;
-  padding: 0px 230px;
+  padding: 30px 230px; 
   display: flex;
 }
 
