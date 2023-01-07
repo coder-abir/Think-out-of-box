@@ -166,6 +166,7 @@ p {
 
 .myPlans {
   margin: auto;
+  padding-top: 50px;
 }
 .myPlans h2 {
   font-size: 40px;
@@ -180,6 +181,7 @@ p {
   justify-content: space-between;
   align-items: center;
   text-align: center;
+  flex-wrap: wrap;
 }
 .myPlans .plans img {
   margin-bottom: 24px;
@@ -187,7 +189,7 @@ p {
 }
 
 .myPlans .plans h4 {
-  font-size: 30px;
+  font-size: 26px;
   font-weight: 700;
   color: #151414;
   line-height: 35px;
@@ -247,12 +249,14 @@ p {
   width: 100%;
   display: flex;
   background-color: #005fac;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  flex-direction: row-reverse;
+  margin:auto;
+  /* flex-direction: row-reverse; */
 }
 .contat_us .contact_form {
-  width: 40%;
+  width: 70%;
+  margin: auto;
 }
 .contat_us .contact_form h3 {
   font-size: 47px;
@@ -262,10 +266,41 @@ p {
   margin-bottom: 30px;
 }
 
+.contact_info{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+.contact_info .info{
+ display: flex;
+}
+.contact_info .info h4{
+  font-size: 24px;
+  color: #fff;
+  font-weight: 600;
+  line-height: 1;
+}
+.contact_info .info p{
+  color: #fff;
+}
+.contact_info .info i{
+  background-color: #f8f8f8;
+  color:#005fac;
+  font-size: 20px;
+  padding: 15px;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  transition: all .4s ease;
+  margin-right: 20px;
+}
+
 .contat_us .contact_form input[type="text"],
 input[type="email"],
 textarea {
-  width: 90%;
+  width: 100%;
   padding: 10px 20px;
   border: none;
   margin-bottom: 20px;
@@ -291,17 +326,6 @@ textarea {
 }
 .contat_us .contact_form input[type="submit"]:hover {
   opacity: 0.8;
-}
-.contact_image {
-  width: 40%;
-  height: 100%;
-  align-self: center;
-  margin-top: 80px;
-}
-.contact_image img {
-  height: 100%;
-  border-radius: 8px;
-  height: 350px;
 }
 /* Bonus: Contact Us end */
 
@@ -365,7 +389,6 @@ textarea {
   outline: none;
 }
 .footer .footer_left .subscribeForm button {
-  width: 50%;
   background-color: #005fac;
   color: #fff;
   line-height: 24px;
