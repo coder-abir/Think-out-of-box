@@ -47,8 +47,12 @@ p {
   padding: 15px 20px;
   border-radius: 5px;
   cursor: pointer;
+  transition: all .4s ease;
 }
 
+.btn:hover{
+  opacity: .8;
+}
 /* Universal Styles : End */
 
 /* Header/hero section : start */
@@ -91,6 +95,11 @@ p {
   color: #005fac;
   padding: 15px 20px;
   border-radius: 5px;
+  transition: all .4s ease;
+}
+
+.hero .content .btn:hover{
+  opacity: 0.8;
 }
 
 /* Header/hero section : end*/
@@ -263,6 +272,10 @@ textarea {
   cursor: pointer;
   font-weight: 600;
   color: #005fac;
+  transition: all .4s ease;
+}
+.contat_us .contact_form input[type="submit"]:hover{
+  opacity: .8;
 }
 .contact_image {
   width: 40%;
