@@ -77,7 +77,7 @@ img {
   font-size: 65px;
   font-weight: 700;
   line-height: 76px;
-  color: #151414;
+  color: #fff;
   margin-bottom: 24px;
 }
 
@@ -122,6 +122,7 @@ img {
 .failures_content {
   height: 100%;
   width: 50%;
+  margin-top: 100px;
 }
 .failures_content p {
   font-size: 16px;
@@ -151,7 +152,7 @@ img {
   line-height: 47px;
   font-weight: 700;
   color: #151414;
-  margin-bottom: 50px;
+  margin-bottom: 60px;
   text-align: center;
 }
 .myPlans .plans {
@@ -207,7 +208,7 @@ img {
 }
 .callNow .callNow_box_content h2 {
   font-size: 40px;
-  line-height: 47px;
+  line-height: 57px;
   font-weight: 700;
   color: #fff;
   margin-bottom: 44px;
@@ -270,13 +271,14 @@ img {
 
 .footer .footer_left .subscribeForm input {
   margin-bottom: 16px;
-  padding: 22px;
+  padding: 15px;
   background-color: transparent;
   border: 1px solid #fff;
   color: #fff;
   border-radius: 8px;
   font-size: 18px;
   width: 100%;
+  outline: none;
 }
 .footer .footer_left .subscribeForm button {
   width: 50%;
