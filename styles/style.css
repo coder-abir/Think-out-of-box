@@ -1,5 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap");
 
+/* ===== Colors Used ===== */
+/*=====================
+
+Primary: #005FAC
+Secondary: #151414
+Tertiary: #444343
+Tertiary 2: #737272
+Common : #fff
+Tic icons(failure section) color : #16D887
+
+======================= */
+
 /* Universal Styles : Start */
 * {
   box-sizing: border-box;
@@ -47,11 +59,11 @@ p {
   padding: 15px 20px;
   border-radius: 5px;
   cursor: pointer;
-  transition: all .4s ease;
+  transition: all 0.4s ease;
 }
 
-.btn:hover{
-  opacity: .8;
+.btn:hover {
+  opacity: 0.8;
 }
 /* Universal Styles : End */
 
@@ -95,10 +107,10 @@ p {
   color: #005fac;
   padding: 15px 20px;
   border-radius: 5px;
-  transition: all .4s ease;
+  transition: all 0.4s ease;
 }
 
-.hero .content .btn:hover{
+.hero .content .btn:hover {
   opacity: 0.8;
 }
 
@@ -272,10 +284,10 @@ textarea {
   cursor: pointer;
   font-weight: 600;
   color: #005fac;
-  transition: all .4s ease;
+  transition: all 0.4s ease;
 }
-.contat_us .contact_form input[type="submit"]:hover{
-  opacity: .8;
+.contat_us .contact_form input[type="submit"]:hover {
+  opacity: 0.8;
 }
 .contact_image {
   width: 40%;
